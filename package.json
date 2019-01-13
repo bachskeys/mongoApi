@@ -1,0 +1,18 @@
+{
+  "name": "mongo-api",
+  "version": "1.0.0",
+  "description": "mongo api with cloud storage ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cesar angulo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1",
+    "nodemon": "^1.18.9"
+  }
+}
