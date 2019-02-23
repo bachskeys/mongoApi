@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const dbURI =
-  "mongodb://ludo:jak3bugg@mongoapi-shard-00-00-wmqlt.mongodb.net:27017,mongoapi-shard-00-01-wmqlt.mongodb.net:27017,mongoapi-shard-00-02-wmqlt.mongodb.net:27017/test?ssl=true&replicaSet=mongoApi-shard-0&authSource=admin&retryWrites=true";
+  "mongodb://ludo:<password>@mongoapi-shard-00-00-wmqlt.mongodb.net:27017,mongoapi-shard-00-01-wmqlt.mongodb.net:27017,mongoapi-shard-00-02-wmqlt.mongodb.net:27017/test?ssl=true&replicaSet=mongoApi-shard-0&authSource=admin&retryWrites=true";
 
 const options = {
   reconnectTries: Number.MAX_VALUE,
